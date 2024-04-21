@@ -242,7 +242,10 @@ while run:
            monsters.add(monster)
        for i in range(1, 3):
            asteroid = Enemy(img_ast, randint(30, win_width - 30), -40, 80, 50, randint(1, 7))
-           asteroids.add(asteroid)   
+           asteroids.add(asteroid)
+       for i in range(1,5):
+         pass
+          
 
 
    time.delay(50)
